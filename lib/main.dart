@@ -10,6 +10,7 @@ void main() async {
 
   runApp(
     new MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: new CryptoListWidget(currencies),
     ),
   );
